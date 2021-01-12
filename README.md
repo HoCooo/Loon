@@ -30,6 +30,7 @@
 
 # 特别感谢：
 
-- 此项目是以nzw9314 整合基础进行搬运.
+- 此项目是以nzw9314 整合基础进行搬运，加上自用配置进行整理
+  -如需签到等其他插件点击前往 [Tartarus2014](https://github.com/Tartarus2014/Loon-Script) 大佬GitHub自取
 
-- nzw9314 GitHub主页 https://github.com/nzw9314
+- [nzw9314](https://github.com/nzw9314)GitHub
