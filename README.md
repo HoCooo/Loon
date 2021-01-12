@@ -6,6 +6,12 @@
 
 - 只测试自用脚本，其他大部分脚本未测试可用性.
 
+# 订阅地址：
+
+[全局配置-中文策略组](https://github.com/HoCooo/Loon/blob/main/Loon-CN.conf)
+
+[订阅脚本合集](https://raw.githubusercontent.com/HoCooo/Loon/main/Script.conf)
+
 # 免责声明：
 
 - 发布的Script项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
