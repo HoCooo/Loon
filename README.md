@@ -10,7 +10,7 @@
 
 - 全局配置已包含订阅脚本合集不用再次订阅
 
-- [全局配置-中文策略组](https://github.com/HoCooo/Loon/blob/main/Loon-CN.conf) 
+- [全局配置-中文策略组](https://raw.github.com/HoCooo/Loon/blob/main/Loon-CN.conf) 
 
 - [订阅脚本合集](https://raw.githubusercontent.com/HoCooo/Loon/main/Script.conf) 
 
