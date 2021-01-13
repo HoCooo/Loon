@@ -32,4 +32,4 @@
 
 - 此项目是以 [nzw9314](https://github.com/nzw9314) 整合基础进行搬运，加上自用配置进行整理
   
-  - 如有其它需求 [点我](https://www.google.com) 
+- 如有更多需求 [点我](https://www.google.com) 
