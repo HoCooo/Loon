@@ -8,7 +8,7 @@
 
 # 订阅地址：
 
-- 全局配置已包含订阅脚本合集不用再次订阅
+- 全局配置已包含订阅脚本合集不用再次订阅.
 
 - [全局配置-中文策略组](https://raw.githubusercontent.com/HoCooo/Loon/main/Loon-CN.conf) 
 
@@ -32,4 +32,4 @@
 
 # 特别感谢：
 
-- 此项目是以 [nzw9314](https://github.com/nzw9314) 整合基础进行搬运，加上自用配置进行整理
+- 此项目是以 [nzw9314](https://github.com/nzw9314) 整合基础进行搬运，加上自用配置进行整理.
