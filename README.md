@@ -14,6 +14,8 @@
 
 - [订阅脚本合集](https://raw.githubusercontent.com/HoCooo/Loon/main/Script.conf) 
 
+- 如有更多需求前往 [GitHub](https://github.com/)  [Google](https://www.google.com) 
+
 # 免责声明：
 
 - 发布的Script项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
@@ -31,5 +33,3 @@
 # 特别感谢：
 
 - 此项目是以 [nzw9314](https://github.com/nzw9314) 整合基础进行搬运，加上自用配置进行整理
-  
-- 如有更多需求 [点我](https://www.google.com) 
