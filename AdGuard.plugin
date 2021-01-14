@@ -1,5 +1,5 @@
 [MITM]
-hostname = license.pdfexpert.com,mobile-api.adguard.com,ayk.tmdidi.com,m.pearkin.com,www.baidu.com2.club,souhu.mett.me,bkcd.b-cdn.net,cn.youku-ca.com,api.revenuecat.com
+hostname = mobile-api.adguard.com
 
 [URL Rewrite]
 # > AdGuard
