@@ -24,14 +24,14 @@
  */
 
 let config = {
-  global_direct: "♲ 𝐃𝐢𝐫𝐞𝐜𝐭",
-  global_proxy: "𝑷𝒓𝒐𝒙𝒚",
+  global_direct: "🎯 直连",
+  global_proxy: "🔰 节点选择",
   silence: false, // 是否静默运行，默认false
   cellular: "RULE", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
   wifi: "RULE", // wifi下默认的模式
-  all_direct: ["WRT32X", "WRT32X Extreme"], // 指定全局直连的wifi名字
+  all_direct: ["AppleSilicon"], // 指定全局直连的wifi名字
   all_proxy: [], // 指定全局代理的wifi名字
-  whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
+  whitelist: ["🎧 网易音乐", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
 };
 
 const isLoon = typeof $loon !== "undefined";
