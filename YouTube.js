@@ -1,0 +1,3 @@
+#新版YouTube去广告
+ctier=[A-Z] url 302 ctier=A
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
