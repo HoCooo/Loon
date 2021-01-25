@@ -10,8 +10,6 @@
 
 - [全局配置-中文策略组](https://raw.githubusercontent.com/HoCooo/Loon/main/Loon-CN.conf) 
 
-- [订阅脚本合集](https://raw.githubusercontent.com/HoCooo/Loon/main/Script.conf) 
-
 - 如有更多需求前往  [[GitHub]](https://github.com/)   [[Google]](https://www.google.com) 
 
 # 免责声明：
