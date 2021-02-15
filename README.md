@@ -6,8 +6,6 @@
 
 # 订阅地址：
 
-- 全局配置已包含订阅脚本合集不用再次订阅.
-
 - [全局配置-中文策略组](https://raw.githubusercontent.com/HoCooo/Loon/main/Loon-CN.conf) 
 
 - 如有更多需求前往  [[GitHub]](https://github.com/)   [[Google]](https://www.google.com) 
