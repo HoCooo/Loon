@@ -1,0 +1,8 @@
+# 网络环境变化自动切换单一或多个策略组节点
+# 本方案可单独调整每一个策略组的对应节点 不影响分流 配合BoxJs使用 
+# 感谢 ipuppet 大佬的用爱发电 ipuppet,yyds
+# 大佬仓库：https://github.com/ipuppet/Profiles/tree/master/Loon/Script
+# BoxJs订阅：https://raw.githubusercontent.com/ipuppet/Profiles/master/Loon/Script/boxjs.json
+
+[Script]
+network-changed script-path=https://raw.githubusercontent.com/ipuppet/Profiles/master/Loon/Script/ssid.js, tag=策略组变更
