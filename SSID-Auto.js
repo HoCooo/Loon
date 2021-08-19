@@ -2,7 +2,6 @@
  * 根据网络环境变化自动切换策略组节点或运行模式
  * 本方案可单独调整每一个策略组的对应节点 
  */ 
-
 const GlobalDirect = 0
 const ByRule = 1
 const GlobalProxy = 2
@@ -25,9 +24,8 @@ const ModelTranslate = {
  *     }
  * }
  */
-
 const ModelList = {
-     "InssCore": {
+     "SSID": {
       selectPolicy: { 
           "节点选择": "直接连接",
         }
@@ -37,7 +35,6 @@ const ModelList = {
 /**
  * 所有未配置的网络更改均走此配置
  */
-
 const DelaultModel = {
       selectPolicy: { 
           "节点选择": "沪港专线",
@@ -58,7 +55,6 @@ changeModel(Object.assign(model, { ssid: config.ssid }), isNotification)
  * @param {Object} config 用户配置
  * @param {Boolean} isNotification 是否通知
  */
-
 function changeModel(config, isNotification) {
     let message = ""
     if (undefined !== config.runningModel) {
