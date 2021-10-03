@@ -1,0 +1,5 @@
+# 配合BoxJs修改商店地区和需求产品
+# https://github.com/Skyxim/my-rule/raw/main/script/boxjs.json
+
+[Script]
+cron "0,10 6-10 * * *" script-path= https://github.com/Skyxim/my-rule/raw/main/script/Apple/AppleStoreInventory.js, tag=苹果商店库存通知
