@@ -1,0 +1,11 @@
+# 需要配置 CA 证书并启用 MitM 开关.
+# 哔哩哔哩在APP里观看番剧即可获取Cookie
+# 获取完Cookie请自行禁用获取脚本
+
+[Script]
+
+# > 网易云音乐签到
+http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true, tag=网易云Cookie获取
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云签到
+
+hostname = music.163.com
