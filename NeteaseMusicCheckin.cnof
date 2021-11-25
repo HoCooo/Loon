@@ -1,5 +1,5 @@
 # 需要配置 CA 证书并启用 MitM 开关.
-# 哔哩哔哩在APP里观看番剧即可获取Cookie
+# 网易云音乐获取方式:先登录: https://music.163.com/m/login,再访问: https://music.163.com/#/user/level
 # 获取完Cookie请自行禁用获取脚本
 
 [Script]
