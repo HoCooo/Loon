@@ -134,6 +134,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge
 # 本地重写
 [URL Rewrite]
 
+# > 跳过油管开头广告
+^https?:\/\/.+\.googlevideo\.com\/.+&oad reject-img
+
 # 订阅重写
 [Remote Rewrite]
 
@@ -184,5 +187,5 @@ https://raw.githubusercontents.com/HoCooo/Loon/main/Collection.script, tag=脚�
 
 [MITM]
 # 默认 = 启用
-hostname =
+hostname = *.googlevideo.com
 skip-server-cert-verify = true
