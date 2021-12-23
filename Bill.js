@@ -11,7 +11,7 @@ hostname= *.biliapi.*, *.bilibili.*
 
 */
 var obj = JSON.parse($response.body);
-obj.data.name = "伟人破解";
+obj.data.name = "那么德华";
 obj.data.coin = 999880;
 obj.data.bcoin = 999880;
 obj.data.face = "https://static1.keepcdn.com/avatar/2021/11/09/00/23/e8374efaeeaa36fe6004e73490e13b118606eac1.jpg";
