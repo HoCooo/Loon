@@ -1,3 +1,15 @@
+/*
+
+
+
+[rewrite_local]
+
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/bilibili.js
+
+[mitm]
+hostname= *.biliapi.*, *.bilibili.*
+
+*/
 var obj = JSON.parse($response.body);
 obj.data.name = "伟人破解";
 obj.data.coin = 999880;
