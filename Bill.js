@@ -1,5 +1,3 @@
-
-*/
 var obj = JSON.parse($response.body);
 obj.data.name = "伟人破解";
 obj.data.coin = 999880;
