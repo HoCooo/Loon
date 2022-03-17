@@ -119,10 +119,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Speedtest/Speedtest.list, policy=网速测试, tag=Speedtest, enabled=true
 
 # > China
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=直接连接, tag=China, enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=直接连接, tag=China, enabled=true
 
 # > Proxy
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=节点选择, tag=Proxy, enabled=true
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=节点选择, tag=Proxy, enabled=true
 
 # > 本地局域网
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list, policy=直接连接, tag=Lan, enabled=true
@@ -138,9 +138,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge
 
 # > 解锁部分Spotify功能
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=Spotify, enabled=true
-
-# > 百度搜索防跳转
-https://raw.githubusercontent.com/app2smile/rules/master/plugin/baidu-no-redirect.plugin, tag=百度搜索防跳转, enabled=true
 
 # > 贴吧去广告
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/tieba.plugin, tag=贴吧, enabled=true
