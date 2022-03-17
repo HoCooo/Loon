@@ -94,10 +94,6 @@ FINAL,黑白名单
 # 订阅规则
 [Remote Rule]
 
-# > 广告拦截
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list, policy=REJECT, tag=广告, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite_Domain.list, policy=REJECT, tag=广告, enabled=true
-
 # > Antirevoke(无视证书失效)
 https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Antirevoke.list, policy=REJECT, tag=无视证书失效, enabled=true
 
