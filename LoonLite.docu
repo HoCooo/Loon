@@ -34,6 +34,10 @@ proxy-test-url = http://www.gstatic.com/generate_204
 # > 测速超时 (s)
 test-timeout = 3
 
+interface-mode = auto
+
+switch-node-after-failure-times = 1
+
 # 解析器
 resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/sub-store-parser.js
 
