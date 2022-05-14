@@ -158,9 +158,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Lo
 # > EmbyPremiere
 https://raw.githubusercontent.com/HoCooo/Loon/main/EmbyPremiere.plugin, tag=EmbyUnlocked, enabled=true
 
-# > 订阅解析器
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin, tag=订阅解析器, enabled=true
-
 # > 开屏广告
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin, tag=开屏广告, enabled=true
 
