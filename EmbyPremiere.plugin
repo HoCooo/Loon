@@ -1,5 +1,5 @@
-#!name=解除Emby观看限制
-#!desc=就是可以看了啊
+#!name=EmbyUnlocked
+#!desc=解除Emby观看限制
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png
 
 [Script]
