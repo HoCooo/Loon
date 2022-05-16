@@ -1,6 +1,6 @@
-# 需要配置 CA 证书并启用 MitM 开关.
-# 哔哩哔哩在APP里观看番剧即可获取Cookie
-# 获取完Cookie请自行禁用获取脚本
+#!name=哔哩哔哩签到
+#!desc=在APP里观看番剧即可获取Cookie,获取完Cookie请自行禁用获取脚本
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_4.png
 
 [Script]
 
