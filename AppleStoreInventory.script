@@ -1,5 +1,8 @@
-# 配合BoxJs修改商店地区和需求产品
-# https://github.com/Skyxim/my-rule/raw/main/script/boxjs.json
+#!name=苹果商店库存查询
+#!desc=配合BoxJs配置取货地区及需求产品
+#!author=点击订阅BoxJs
+#!homepage=http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FSkyxim%2Fmy-rule%2Fraw%2Fmain%2Fscript%2Fboxjs.json
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
 
 [Script]
 cron "*/10 6-9/1 * * *" script-path= https://github.com/Skyxim/my-rule/raw/main/script/Apple/AppleStoreInventory.js, tag=苹果商店库存查询
