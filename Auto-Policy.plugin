@@ -1,5 +1,5 @@
 #!name=网络变化切换节点
-#!desc=网络环境变化自动切换单一或多个策略组节点
+#!desc=配合BoxJs实现网络环境变化自动切换单一或多个策略组节点
 #!author=点击订阅BoxJs
 #!homepage=http://boxjs.com/#/sub/add/https%3A%2F%2Fraw.githubusercontent.com%2Fipuppet%2FProfiles%2Fmaster%2FLoon%2FScript%2Fboxjs.json
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SSID.png
