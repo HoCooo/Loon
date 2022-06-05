@@ -17,7 +17,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 
 # > 京东淘宝比价
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js, enabled=false, tag=京东比价
-http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js, enabled=true, tag=淘宝比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js, enabled=false, tag=京东比价
 
 # > 奈飞评分
@@ -32,4 +31,4 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true, enabled=true, tag=网易云Cookie获取
 cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, enabled=true, tag=网易云签到
 
-hostname = ios.prod.ftl.netflix.com, api.bilibili.com, app.bilibili.com, *.bilibili.com, api.m.jd.com, trade-acs.m.taobao.com, music.163.com, testflight.apple.com
+hostname = ios.prod.ftl.netflix.com, api.bilibili.com, app.bilibili.com, *.bilibili.com, api.m.jd.com, music.163.com, testflight.apple.com
