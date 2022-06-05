@@ -1,4 +1,4 @@
-# Loon 全局配置-中文策略组 by HoCooo
+# Loon 全局配置-中文策略组 by HoCoo
 # 需要其它脚本自行寻找 不提供
 # 基础教学视频⭐️https://youtu.be/_MJG4xfWEas
 # 官方交流群组⭐️https://t.me/Loon0x00
@@ -34,9 +34,11 @@ proxy-test-url = http://www.gstatic.com/generate_204
 # > 测速超时 (s)
 test-timeout = 3
 
+# 网络接口模式
 interface-mode = auto
 
-switch-node-after-failure-times = 1
+# 节点连续失败几次后进行节点切换
+switch-node-after-failure-times = 3
 
 # 解析器
 resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/dist/sub-store-parser.loon.min.js
