@@ -47,6 +47,9 @@ resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/bac
 
 host = 127.0.0.1
 
+# 切换至路由器 DNS 服务 （修改下方 LEDE 为自己 Wi-Fi ID）
+ssid:LEDE = server:system
+
 # 订阅节点
 [Remote Proxy]
 
