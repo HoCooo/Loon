@@ -66,8 +66,6 @@ host = 127.0.0.1
 # 策略组
 [Proxy Group]
 
-黑白名单 = select,节点选择,直接连接,手动选择,img-url = https://raw.githubusercontents.com/Orz-3/face/master/Final.png
-
 节点选择 = select,自动测速,手动选择,直接连接,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Global.png
 
 自动测速 = fallback,订阅节点,url = http://www.gstatic.com/generate_204,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Auto.png
@@ -80,8 +78,6 @@ host = 127.0.0.1
 
 网飞视频 = select,网飞节点,节点选择,手动选择,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Netflix.png
 
-声田音乐 = select,美国节点,直接连接,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Music.png
-
 电报吹水 = select,节点选择,手动选择,直接连接,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Telegram.png
 
 网速测试 = select,直接连接,节点选择,手动选择,img-url = https://raw.githubusercontent.com/Orz-3/face/master/Piao.png
@@ -93,7 +89,7 @@ host = 127.0.0.1
 
 # > GeoIP China
 GEOIP,CN,直接连接
-FINAL,黑白名单
+FINAL,节点选择
 
 # 订阅规则
 [Remote Rule]
@@ -112,9 +108,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 
 # > Netflix
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Netflix/Netflix.list, policy=网飞视频, tag=Netflix, enabled=true
-
-# > Spotify
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list, policy=声田音乐, tag=Spotify, enabled=true
 
 # > Telegram
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=电报吹水, tag=Telegram, enabled=true
@@ -139,6 +132,15 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge
 
 # 插件
 [Plugin]
+
+# > 哔哩哔哩签到
+https://raw.githubusercontent.com/HoCooo/Loon/main/BiliBiliCheckin.script, enabled=true
+
+# > 网易云音乐签到
+https://raw.githubusercontent.com/HoCooo/Loon/main/NeteaseMusicCheckin.script, enabled=true
+
+# > 京东价格返利
+https://raw.githubusercontent.com/HoCooo/Loon/main/JdJfPrice.plugin, enabled=true
 
 # > 节点流媒体可用性查询
 https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/MediaCheck.plugin, tag=Node Detection Tool, enabled=true
@@ -175,9 +177,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bil
 
 # 远程脚本 
 [Remote Script]
-
-# > 脚本
-https://raw.githubusercontents.com/HoCooo/Loon/main/Collection.script, tag=脚本, enabled=true
 
 [MITM]
 # 默认 = 启用
