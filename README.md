@@ -6,7 +6,7 @@
 
 # 订阅地址：
 
-- https://raw.githubusercontent.com/HoCooo/Loon/main/LoonLite.docu
+- https://raw.githubusercontent.com/HoCooo/Loon/main/LoonLite.conf
 
 - 如有更多需求前往  [[GitHub]](https://github.com/)   [[Google]](https://www.google.com) 
 
